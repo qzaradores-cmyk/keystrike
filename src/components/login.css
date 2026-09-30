@@ -66,6 +66,28 @@
     margin: 3px 0 10px;
 }
 
+.login-page .forgot button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: rgb(0, 0, 128);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-page .forgot button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.login-page .reset-status {
+  max-width: 280px;
+  color: rgb(1, 1, 114);
+  font: 13px/1.4 "Inter", sans-serif;
+  text-align: center;
+}
+
 .login-page input {
     font-family: "Inter", sans-serif;
     font-size: 18px;
