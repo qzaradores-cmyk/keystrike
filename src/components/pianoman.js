@@ -574,7 +574,6 @@ function PianoMan({ onNavigate }) {
     if (pausedRef.current) return;
     notesPressedRef.current += 1;
     const pitch = pressedNote.toUpperCase();
-    playTone(pitch);
 
 
     if (!lineRef.current) return;

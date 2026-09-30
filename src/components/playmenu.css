@@ -101,7 +101,7 @@
   }
 
   .playmenu-page .msclesson::before { background-image: var(--piano-image); opacity: 0.2; }
-  .playmenu-page .goal::before { background-image: var(--minigame-image); opacity: 0.4; }
+  .playmenu-page .goal::before { background-image: var(--achievements-image); opacity: 0.4; }
   .playmenu-page .minigame::before { background-image: var(--minigame-image); opacity: 0.25; }
 
   .playmenu-page .top-buttons button:hover,

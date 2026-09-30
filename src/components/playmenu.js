@@ -6,6 +6,7 @@ function PlayMenu({ onNavigate }) {
   return <div className="playmenu-page" style={{
     '--music-background': 'url(/assets/glowing-musical-pentagram-background-with-sound-notes_1017-31220.avif)',
     '--piano-image': 'url(/assets/piano.png)',
+    '--achievements-image': 'url(/assets/achievements.png)',
     '--minigame-image': 'url(/assets/wireframe.png)',
   }}>
     <a href="mainmenu.html" onClick={(event) => preventNavigation(event, 'mainmenu')}>
